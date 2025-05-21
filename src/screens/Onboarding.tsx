@@ -13,7 +13,6 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-
 import { useChat } from '../context/ChatContext';
 import { useTheme } from '../theme/theme';
 
