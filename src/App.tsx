@@ -19,7 +19,7 @@ const App = () => {
           <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
           <NavigationContainer>
             <Stack.Navigator initialRouteName="Onboarding" screenOptions={{ headerShown: false }}>
-              <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+              <Stack.Screen name="Onboarding" component={OnboardingScreen}  />
               <Stack.Screen name="Chat" component={ChatScreen} />
               <Stack.Screen name="Resources" component={ResourcesScreen} />
             </Stack.Navigator>
